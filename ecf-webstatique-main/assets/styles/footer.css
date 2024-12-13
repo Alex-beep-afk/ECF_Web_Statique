@@ -1,0 +1,28 @@
+ul{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    width: 100%;
+}
+ul>li{
+    display: inline;
+    width : 15px;
+    text-align: center;
+    padding:10px;
+    border-radius: 2px;
+}
+ul>li:hover{
+    background-color: var(--text_hover);
+    color: black;
+}
+ul>li:first-child{
+    background-color: black;
+    color: white;
+}
+/* footer{
+    margin-top: 50px;
+} */
+@media screen and (min-width: 1000px){
+    
+    
+}
